@@ -1,4 +1,4 @@
-module github.com/engageminds/em-ta-consumer
+module github.com/jseparator/em-ta-consumer
 
 go 1.24
 

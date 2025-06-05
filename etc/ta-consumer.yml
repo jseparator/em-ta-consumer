@@ -1,0 +1,15 @@
+forward:
+  url: https://a.engageminds.ai/e/ta-kfk
+  concurrency: 300
+  max-retries: 3
+  compress: off
+kafka:
+  brokers: 127.0.0.1:9092
+  topic: ta-data
+  group-id: em-ta-consumer
+app-id: # Ta AppId map to Em Appk
+  REPLACE_WITH_YOUR_TA_APP_ID: REPLACE_WITH_YOUR_EM_APPK
+log:
+  dir: log
+  level: info
+  name: stdout.log

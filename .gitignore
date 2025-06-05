@@ -1,0 +1,5 @@
+# golang ignore for IDEA
+.idea/
+bin/
+log/
+src/pkg/
